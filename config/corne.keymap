@@ -11,7 +11,7 @@
 // 5 column setup
 / {
     chosen {
-        zmk,matrix-transform = &five_column_transform;
+        zmk,matrix_transform = &five_column_transform;
     };
 };
 
