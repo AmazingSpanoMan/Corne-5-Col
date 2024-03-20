@@ -90,10 +90,10 @@
 
         WoW {
             bindings = <
-  &kp LC(N6)  &kp LC(N7)  &kp N3     &kp LC(NUMBER_4)  &kp LC(NUMBER_5)    &trans  &trans  &trans  &trans  &to 0
-  &kp N1      &kp N2      &kp W      &kp N4            &kp N5              &trans  &trans  &trans  &trans  &trans
-  &kp N7      &kp A       &kp S      &kp D             &kp N9              &trans  &trans  &trans  &trans  &trans
-                          &kp LC(G)  &kp N0            &kp SPACE           &trans  &trans  &trans
+  &kp LC(N6)  &kp LC(N7)  &kp N3     &kp LC(NUMBER_4)  &kp LC(NUMBER_5)    &kp ESCAPE  &trans  &trans  &trans  &to 0
+  &kp N1      &kp N2      &kp W      &kp N4            &kp N5              &trans      &trans  &trans  &trans  &trans
+  &kp N7      &kp A       &kp S      &kp D             &kp N9              &trans      &trans  &trans  &trans  &trans
+                          &kp LC(G)  &kp N0            &kp SPACE           &trans      &kp M   &kp B
             >;
         };
     };
