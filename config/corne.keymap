@@ -57,10 +57,10 @@
             //                    | GUI |     | SPC/SHFT |   | ENT |     | ALT |
 
             bindings = <
-  &kp N1          &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8     &kp N9        &kp N0
-  &kp LEFT_SHIFT  &trans        &trans        &trans        &trans          &trans    &kp UP    &trans     &trans        &kp RIGHT_SHIFT
-  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp LEFT  &kp DOWN  &kp RIGHT  &kp QUESTION  &kp ENTER
-                                &bt BT_CLR    &trans        &kp SPACE       &trans    &trans    &trans
+  &kp N1          &kp N2        &kp N3        &kp N4        &kp N5          &kp N6  &kp N7    &kp N8          &kp N9     &kp N0
+  &kp LEFT_SHIFT  &trans        &trans        &trans        &trans          &trans  &trans    &kp UP_ARROW    &trans     &kp RIGHT_SHIFT
+  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp ENTER
+                                &bt BT_CLR    &trans        &kp SPACE       &trans  &trans    &trans
             >;
         };
 
@@ -72,10 +72,10 @@
             //                    | GUI |     | SPC/SHFT |   | ENT |     | ALT |
 
             bindings = <
-  &to 3   &to 4   &trans    &trans  &trans    &trans     &trans     &kp SLASH  &kp BACKSLASH  &kp MINUS
-  &trans  &trans  &trans    &trans  &trans    &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT       &kp PLUS
-  &trans  &trans  &trans    &trans  &trans    &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC       &kp QUESTION
-                  &kp LGUI  &trans  &trans    &kp RET    &kp SPACE  &kp RALT
+  &kp TAB  &trans  &trans    &trans  &trans    &trans     &trans     &kp SLASH  &kp BACKSLASH  &kp MINUS
+  &trans   &trans  &trans    &trans  &trans    &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT       &kp PLUS
+  &to 3    &to 4   &trans    &trans  &trans    &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC       &trans
+                   &kp LGUI  &trans  &trans    &kp RET    &kp SPACE  &kp RALT
             >;
         };
 
@@ -84,7 +84,7 @@
   &trans          &kp A   &kp V      &kp LC(MINUS)  &kp LC(PLUS)          &trans  &trans  &trans  &trans  &to 0
   &kp LEFT_SHIFT  &trans  &trans     &trans         &trans                &trans  &trans  &trans  &trans  &trans
   &trans          &trans  &trans     &trans         &kp LA(LEFT_SHIFT)    &trans  &trans  &trans  &trans  &trans
-                          &kp LC(C)  &kp LC(P)      &kp SPACE             &trans  &trans  &trans
+                          &kp LC(C)  &kp LC(V)      &kp SPACE             &trans  &trans  &trans
             >;
         };
 
