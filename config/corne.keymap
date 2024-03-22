@@ -22,12 +22,22 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <280>;
+            tapping-term-ms = <175>;
             flavor = "balanced";
             hold-trigger-on-release;
             quick-tap-ms = <175>;
             require-prior-idle-ms = <150>;
             hold-trigger-key-positions = <10 11 12 17 18 19>;
+        };
+    };
+
+    macros {
+        WebsiteLogin: WebsiteLogin {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LCTRL &kp RCTRL>, <&macro_press>;
+
+            label = "WEBSITELOGIN";
         };
     };
 
@@ -81,10 +91,10 @@
 
         Creative {
             bindings = <
-  &trans          &kp A   &kp V      &kp LC(MINUS)  &kp LC(PLUS)          &trans  &trans  &trans  &trans  &to 0
-  &kp LEFT_SHIFT  &trans  &trans     &trans         &trans                &trans  &trans  &trans  &trans  &trans
-  &trans          &trans  &trans     &trans         &kp LA(LEFT_SHIFT)    &trans  &trans  &trans  &trans  &trans
-                          &kp LC(C)  &kp LC(V)      &kp SPACE             &trans  &trans  &trans
+  &trans          &kp A   &kp V      &kp LC(MINUS)  &kp LC(PLUS)          &trans         &trans  &trans  &trans  &to 0
+  &kp LEFT_SHIFT  &trans  &trans     &trans         &trans                &trans         &trans  &trans  &trans  &trans
+  &trans          &trans  &trans     &trans         &kp LA(LEFT_SHIFT)    &trans         &trans  &trans  &trans  &trans
+                          &kp LC(C)  &kp LC(V)      &kp SPACE             &WebsiteLogin  &trans  &trans
             >;
         };
 
