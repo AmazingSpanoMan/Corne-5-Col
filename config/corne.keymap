@@ -32,12 +32,11 @@
     };
 
     macros {
-        WebsiteLogin: WebsiteLogin {
+        DblCTRL: DblCTRL {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LCTRL &kp RCTRL>, <&macro_press>;
-
-            label = "WEBSITELOGIN";
+            bindings = <&kp LCTRL &kp LCTRL>;
+            label = "DBLCTRL";
         };
     };
 
@@ -67,10 +66,10 @@
             //                    | GUI |     | SPC/SHFT |   | ENT |     | ALT |
 
             bindings = <
-  &kp N1          &kp N2        &kp N3        &kp N4        &kp N5          &kp N6  &kp N7    &kp N8          &kp N9     &kp N0
-  &kp LEFT_SHIFT  &trans        &trans        &trans        &trans          &trans  &trans    &kp UP_ARROW    &trans     &kp RIGHT_SHIFT
-  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans  &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp ENTER
-                                &bt BT_CLR    &trans        &kp SPACE       &trans  &trans    &trans
+  &kp N1          &kp N2        &kp N3        &kp N4        &kp N5          &kp N6    &kp N7    &kp N8          &kp N9     &kp N0
+  &kp LEFT_SHIFT  &trans        &trans        &trans        &trans          &trans    &trans    &kp UP_ARROW    &trans     &kp RIGHT_SHIFT
+  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans    &kp LEFT  &kp DOWN_ARROW  &kp RIGHT  &kp ENTER
+                                &bt BT_CLR    &trans        &kp SPACE       &DblCTRL  &trans    &trans
             >;
         };
 
