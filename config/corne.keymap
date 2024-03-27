@@ -90,10 +90,10 @@
 
         Creative {
             bindings = <
-  &trans          &kp A   &kp V      &kp LC(MINUS)  &kp LC(PLUS)          &trans         &trans  &trans  &trans  &to 0
-  &kp LEFT_SHIFT  &trans  &trans     &trans         &trans                &trans         &trans  &trans  &trans  &trans
-  &trans          &trans  &trans     &trans         &kp LA(LEFT_SHIFT)    &trans         &trans  &trans  &trans  &trans
-                          &kp LC(C)  &kp LC(V)      &kp SPACE             &WebsiteLogin  &trans  &trans
+  &trans          &kp A   &kp V      &kp LC(MINUS)  &kp LC(PLUS)          &trans  &trans  &trans  &trans  &to 0
+  &kp LEFT_SHIFT  &trans  &trans     &trans         &trans                &trans  &trans  &trans  &trans  &trans
+  &trans          &trans  &trans     &trans         &kp LA(LEFT_SHIFT)    &trans  &trans  &trans  &trans  &trans
+                          &kp LC(C)  &kp LC(V)      &kp SPACE             &trans  &trans  &trans
             >;
         };
 
