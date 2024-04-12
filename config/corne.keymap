@@ -81,10 +81,10 @@
             //                    | GUI |     | SPC/SHFT |   | ENT |     | ALT |
 
             bindings = <
-  &kp TAB  &trans  &trans    &trans  &trans    &trans     &trans     &kp SLASH  &kp BACKSLASH  &kp MINUS
-  &trans   &trans  &trans    &trans  &trans    &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT       &kp PLUS
-  &to 3    &to 4   &trans    &trans  &trans    &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC       &trans
-                   &kp LGUI  &trans  &trans    &kp RET    &kp SPACE  &kp RALT
+  &kp TAB     &trans  &trans    &trans  &trans    &trans     &trans     &kp SLASH  &kp BACKSLASH  &kp MINUS
+  &kp ESCAPE  &trans  &trans    &trans  &trans    &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT       &kp PLUS
+  &to 3       &to 4   &trans    &trans  &trans    &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC       &trans
+                      &kp LGUI  &trans  &trans    &kp RET    &kp SPACE  &kp RALT
             >;
         };
 
@@ -99,10 +99,10 @@
 
         WoW {
             bindings = <
-  &kp LC(N6)  &kp LC(N7)  &kp N3     &kp LC(NUMBER_4)  &kp LC(NUMBER_5)    &kp ESCAPE  &trans  &trans  &trans  &to 0
-  &kp N1      &kp N2      &kp W      &kp N4            &kp N5              &trans      &trans  &trans  &trans  &trans
-  &kp N7      &kp A       &kp S      &kp D             &kp N9              &trans      &trans  &trans  &trans  &trans
-                          &kp LC(G)  &kp N0            &kp SPACE           &trans      &kp M   &kp B
+  &kp LC(N6)  &kp LC(N7)  &kp N3     &kp LC(NUMBER_4)  &kp LC(NUMBER_5)    &kp ESCAPE      &trans  &trans  &trans  &to 0
+  &kp N1      &kp N2      &kp W      &kp N4            &kp N5              &trans          &trans  &trans  &trans  &trans
+  &kp N7      &kp A       &kp S      &kp D             &kp N9              &trans          &trans  &trans  &trans  &trans
+                          &kp LC(G)  &kp N0            &kp SPACE           &kp LEFT_SHIFT  &kp M   &kp B
             >;
         };
     };
