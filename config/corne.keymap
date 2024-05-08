@@ -23,10 +23,10 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <560>;
-            flavor = "hold-preferred";
+            flavor = "balanced";
             hold-trigger-on-release;
             quick-tap-ms = <175>;
-            require-prior-idle-ms = <125>;
+            require-prior-idle-ms = <150>;
             hold-trigger-key-positions = <10 11 12 17 18 19>;
         };
     };
